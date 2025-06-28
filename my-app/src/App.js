@@ -2,11 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const name = 'GW'
   return (
     <div>
       <h1>Hello World</h1>
       <h2 className='orange'>This is a heading</h2>
-      
+      <p>{name}</p>
+
       <ul>
         <li>바나나</li>
         <li>사과</li>
