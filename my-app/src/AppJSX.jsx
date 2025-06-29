@@ -3,16 +3,17 @@ import './App.css';
 
 function App() {
   const name = 'GW'
+  const list = ['우유','딸기','바나나'];
   return (
     <div>
-      <h1>Hello World</h1>
+      <h1>{`hello ${name}`}</h1>
       <h2 className='orange'>This is a heading</h2>
       <p>{name}</p>
 
       <ul>
-        <li>바나나</li>
-        <li>사과</li>
-        <li>포도</li>
+        {list.map((item) => (
+        <li>{item}</li>
+        ))}
       </ul>
 
       <img
