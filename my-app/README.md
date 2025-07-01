@@ -1,3 +1,5 @@
+# HOST=0.0.0.0 yarn start // 외부 테스트 시 사용
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
